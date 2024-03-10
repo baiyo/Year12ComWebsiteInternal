@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html, body {
-  overflow-x: hidden;
+  /* overflow-x: hidden;
+  overflow-y: visible; */
 }
 body {
-  position: relative;
+  /* position: relative; */
   font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
 }
 
 .waveeffect { 
@@ -15,6 +26,7 @@ body {
   bottom:0;
   left:0;
   background: #015871;
+  inset(-100000px 0 0 0);
 }
 
 .wave {
