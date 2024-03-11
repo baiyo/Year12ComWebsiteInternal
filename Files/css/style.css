@@ -20,7 +20,7 @@ header {
 }
 
 .waveeffect { 
-  height: 25%;
+  min-height: 30%;
   width:100%;
   position:absolute;
   /* bottom:0; */
@@ -35,7 +35,7 @@ header {
   position: absolute;
   bottom: 0;
   width: 6400px;
-  height: 198px;
+  min-height: 198px;
   animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
 }
