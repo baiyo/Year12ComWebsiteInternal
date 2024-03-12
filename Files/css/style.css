@@ -50,6 +50,17 @@ header {
   opacity: 1;
 }
 
+.nav-item {
+  top: 0px;
+  transition: top 0.5s;
+  /* transition-timing-function: linear(.29, 1.01, 1, -0.68); */
+  position: relative;
+}
+
+.nav-item:hover {
+  top: -5px;
+}
+
 
 
 @keyframes wave {
