@@ -9,14 +9,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
+
+.hidden {
+  visibility: hidden;
 }
 
 header {
   position: sticky;
   top: 0;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
 }
 
 .waveeffect { 
@@ -46,6 +50,8 @@ header {
   opacity: 1;
 }
 
+
+
 @keyframes wave {
   0% {
     margin-left: 0;
@@ -62,9 +68,4 @@ header {
   50% {
     transform: translate3d(0,5px,0);
   }
-}
-
-/* NAV BAR */
-.text-small {
-  font-size: 0.9rem !important;
 }
