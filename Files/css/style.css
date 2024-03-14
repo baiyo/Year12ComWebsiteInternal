@@ -61,6 +61,10 @@ header {
   top: -5px;
 }
 
+.active {
+  color: #5983ff !important;
+}
+
 
 
 @keyframes wave {
