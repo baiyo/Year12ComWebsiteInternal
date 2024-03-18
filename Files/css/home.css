@@ -20,7 +20,7 @@ html {
   /* overflow-y: visible; */
 }
 body {
-  /* position: relative; */
+  position: relative;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -42,7 +42,7 @@ header {
   min-height: 33%;
   width:100%;
   position:absolute;
-  /* bottom:0; */
+  bottom:0;
   left:0;
   background: linear-gradient(transparent 80%, #015871 80%);
   overflow: hidden;
