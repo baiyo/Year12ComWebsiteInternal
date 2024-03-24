@@ -38,6 +38,16 @@ header {
   font-size: 0.9rem !important;
 }
 
+.Rectangle-Img {
+  min-width: 600px;
+  min-height: 300px;
+}
+
+.Square-Img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
 .waveeffect { 
   min-height: 33%;
   width:100%;
