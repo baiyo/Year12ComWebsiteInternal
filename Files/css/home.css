@@ -3,7 +3,7 @@
 .parent {
   background-image:
   linear-gradient(to left, rgba(255, 255, 255, 0.52), rgba(0, 0, 0, 0.73)),
-  url('./Files/images/BACKGROUND.jpg');
+  url('../images/BACKGROUND.jpg');
   /* width: 100vw; */
   /* height: 400px; */
   background-size: cover;
